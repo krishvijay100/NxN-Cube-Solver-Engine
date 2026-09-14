@@ -2,6 +2,16 @@
 
 High-performance C++ Rubik’s Cube solver supporting 3×3 through 7×7 cubes, with a React/Three.js simulator and a FastAPI service. The engine combines a coordinate-space Kociemba two-phase IDA* search with a deterministic, orbit-aware general-N reduction pipeline.
 
+## Demo
+
+<p align="center">
+  <a href="docs/demo/nxn-cube-solver-demo.mp4">
+    <img src="docs/demo/nxn-cube-solver-demo.webp" width="960" alt="NxN Cube Solver Engine demo: scrambling and solving a 3x3, then selecting and solving a 7x7">
+  </a>
+</p>
+
+<p align="center"><sub>3×3 and 7×7 solves through the C++ engine and web stack. Click the demo for the full-resolution MP4.</sub></p>
+
 ## Highlights
 
 - Solves 3×3–7×7 cubes through one end-to-end API.
